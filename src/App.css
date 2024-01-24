@@ -13,3 +13,45 @@ line-height: normal;
     border-radius: 10px;
     color: white;
 }
+
+.home{
+    background-color: black;
+}
+.gamification{
+    color: #775FC5;
+font-family: "Helvetica";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.home-text2{
+    color: #FFF;
+font-family: "Helvetica";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home-text3{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+.Dashboard{
+    background-color: #2F2836;
+}
+.Dashboard-bg{
+    background-image: url(./assets/images/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 60% ;
+    background-position-x: 15%;
+    background-position-y: 90%;
+    height: 90%;
+}
+.dashboard-img{
+    margin-left: 10%;
+}
