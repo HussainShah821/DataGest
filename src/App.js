@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavbar from './components/MyNavbar';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
+import Advantages from './components/Advantages';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <MyNavbar/>
     <Home/>
     <Dashboard/>
+    <Advantages />
     </>
   );
 }
