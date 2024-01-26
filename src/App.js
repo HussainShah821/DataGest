@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 import Advantages from './components/Advantages';
 import Solutions from './components/Solutions';
+import Expert from './components/Expert';
+import Promotions from './components/Promotion';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
     <Dashboard/>
     <Advantages />
     <Solutions />
+    <Expert />
+    <Promotions />
     </>
   );
 }

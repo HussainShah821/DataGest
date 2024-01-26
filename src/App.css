@@ -204,3 +204,32 @@
 .Solutions-img{
     width: 88%;
 }
+.Expert-bg{
+    background-image: url(./assets/images/Vector\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-x: 10%;
+    background-position-y: 60%;
+    height: 93%;
+}
+.Expert-img{
+    width: 80%;
+}
+.Expert{
+    background-color: #2F2836;
+}
+.Promotions-bg{
+    background-image: url(./assets/images/Vector\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position-x: 0%;
+    background-position-y: 5%;
+    height: 93%;
+}
+.Promotions-img{
+    width: 75%;
+    margin-left: 7%;
+}
+.Promotions{
+    background-color: #2F2836;
+}
