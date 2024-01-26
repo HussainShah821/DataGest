@@ -4,6 +4,7 @@ import MyNavbar from './components/MyNavbar';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 import Advantages from './components/Advantages';
+import Solutions from './components/Solutions';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Home/>
     <Dashboard/>
     <Advantages />
+    <Solutions />
     </>
   );
 }

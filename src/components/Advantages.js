@@ -118,7 +118,7 @@ function Advantages() {
                             </div>
                         
                         </Col>
-                        <hr className='Advantages-bottom w-75'></hr>
+                        <hr className='Advantages-bottom w-100'></hr>
                     </Row>
 
                 </div>

@@ -152,11 +152,15 @@
     display: flex;
     margin-left: 66%;
     border: 3px solid white;
-    position: relative;
+
     z-index: 2;
 
 }
-
+@media screen and (max-width:767px){
+    .num-container{
+        margin-left: 9% ;
+    }
+}
 .advantages-text4 {
     color: #FFF;
     font-family: Helvetica;
@@ -171,9 +175,28 @@
 
 .Advantages-bottom {
     border: 2px solid #775FC5;
-    position: absolute;
-    top: 274%;
     z-index: 0;
     margin-left: -5%;
     opacity: 55%;
+    display: flex;
+    top: 10%;
+}
+@media screen and (max-width:767px){
+    .Advantages-bottom {
+        border: 0px;
+    }
+}
+.Solutions{
+    background-color: #2F2836;
+}
+.Solutions-bg{
+    background-image: url(./assets/images/Vector\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 76%;
+    background-position-x: 28%;
+    background-position-y: 60%;
+    height: 80%;
+}
+.Solutions-img{
+    width: 88%;
 }
