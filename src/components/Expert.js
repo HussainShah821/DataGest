@@ -15,7 +15,7 @@ function Expert() {
                     </Col>
                     <Col>
                         <Container >
-                            <p className='gamification mt-5 pt-5 w-25'> Misez sur le bon cheval</p>
+                            <p className='gamification mt-5 pt-5 w-50'> Misez sur le bon cheval</p>
                             <h1 className='text-white mt-0 home-text2 w-75'>UNE EQUIPE D’EXPERT
                                 A VOTRE SERVICE</h1>
                             <h5 className='text-white home-text3 w-75'>Nous prenons en main votre projet de jeu a A à Z.
@@ -24,7 +24,7 @@ function Expert() {
                                 chargé de projet vous est dédié. Ill coordonne son équipe pour mener à bien votre opération 
                                 dans le respect de votre cahier ds charges et des délais</h5>
 
-                            <p className='gamification  '> En savoir plus sur nos Expert  </p>
+                            <p className='gamification  '> En savoir plus sur nos solutions  &gt; </p>
                         </Container>
 
                     </Col>

@@ -43,8 +43,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
+    line-height: 25px; 
 }
 
 .Dashboard {
@@ -232,4 +231,7 @@
 }
 .Promotions{
     background-color: #2F2836;
+}
+.Promotions-container{
+width: 145% !important;
 }

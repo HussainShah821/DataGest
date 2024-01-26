@@ -15,7 +15,7 @@ function Solutions() {
                     de notre catalogue de mécaniques simples et percutantes. Définissez votre scénario et 
                     votre créa afin de booster votre notoriété et offrir a vos participants un parcours clients ludique et original.</h5>
                         
-                    <p className='gamification  '> En savoir plus sur nos solutions  </p>   
+                    <p className='gamification  '> En savoir plus sur nos solutions  &gt; </p>   
         </Container>
         </Col>
         <Col> 
