@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="form-container w-100">
       <h2 className="form-heading1">La balle est dans votre camp</h2>
-    <p className='Form-heading2'>CONTACTEZ-NOUS POUR PLUS D’INFORMATIONS</p>
+    <p className="form-heading2">CONTACTEZ-NOUS POUR PLUS D’INFORMATIONS</p>
       <Row>
         <Col md={6} className="form-column">
           <Form.Group>
