@@ -235,3 +235,57 @@
 .Promotions-container{
 width: 145% !important;
 }
+/* ContactForm.css */
+
+.form-container {
+    background-color: #2F2836;
+    
+    
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-heading1 {
+    color: #775FC5;
+text-align: center;
+font-family: Helvetica;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.38px;
+  }
+  .form-heading2{
+    color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.38px;
+  }
+  
+  .form-column {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-column:last-child {
+    margin-bottom: 0; /* Remove margin-bottom for the last column to prevent extra space */
+  }
+  
+  .form-column label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .form-column input,
+  .form-column textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  

@@ -7,6 +7,7 @@ import Advantages from './components/Advantages';
 import Solutions from './components/Solutions';
 import Expert from './components/Expert';
 import Promotions from './components/Promotion';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Solutions />
     <Expert />
     <Promotions />
+    <ContactForm />
     </>
   );
 }
