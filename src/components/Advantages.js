@@ -22,7 +22,7 @@ function Advantages() {
                 <div className='line-seg mx-auto'>
                     <hr className="mx-auto " />
                 </div>
-                <div className='Container w-75 mx-auto mt-5 p-5'>
+                <div className='Container w-75 mx-auto mt-5 p-5 Dashboard-container' >
                     <Row>
                         
                         <Col md={1} className='mx-4' > <div className='image-container1 pt-1 ps-1'>

@@ -116,7 +116,7 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    cursor: poi;
+    cursor: pointer;
 }
 
 .roundedCircle {
@@ -143,6 +143,9 @@
     /* Center the line horizontally */
 }
 
+.Dashboard-container{
+    position: relative;
+}
 .num-container {
     background-color: #775FC5;
     width: 30px;
@@ -152,7 +155,7 @@
     display: flex;
     margin-left: 66%;
     border: 3px solid white;
-
+    position: relative;
     z-index: 2;
 
 }
@@ -179,7 +182,8 @@
     margin-left: -5%;
     opacity: 55%;
     display: flex;
-    top: 10%;
+    top: 81%;
+    position: absolute;
 }
 @media screen and (max-width:767px){
     .Advantages-bottom {
