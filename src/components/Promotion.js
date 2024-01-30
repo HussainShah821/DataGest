@@ -7,7 +7,7 @@ function Promotions() {
         <div className='Promotions'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={6}>
                         <Container className='Promotions-container'>
                             <p className='gamification mt-5 pt-5 w-25'>Ayez toutes les cartes en main</p>
                             <h1 className='text-white mt-0 home-text2 w-75'>DES LEVIERS PROMOTIONNELS IMPACTANTS</h1>

@@ -7,14 +7,13 @@ const Footer = () => {
     <footer className="bg-white text-black py-3">
       <Container>
         <Row>
-          <Col className="text-center">
-          
-              <span className='mx-5 footer-item'>&copy; 2021 Copyright. Tous droits réservés.</span>
-              <span className='mx-5 footer-item'>Data-Gest</span>
-              <span className='mx-5 footer-item'>Politique de confidentialité</span>
-              <span className='mx-5 footer-item'>Mentions légales</span>
-            
-          </Col>
+         
+            <p className='footer-item '>
+              <span className='mx-auto' >&copy; 2021 Copyright. Tous droits réservés.</span>
+              <span className='mx-auto'>Data-Gest</span>
+              <span className='mx-auto'>Politique de confidentialité</span>
+              <span className='mx-auto'>Mentions légales</span>
+            </p>
         </Row>
       </Container>
     </footer>
