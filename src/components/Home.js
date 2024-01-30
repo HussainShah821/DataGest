@@ -18,14 +18,14 @@ function Home() {
           <Col>
             <Carousel className='p-5'>
               <Carousel.Item>
-                <img src={image1} alt='Carousel Image'/>
+                <img src={image1} className='w-100' alt='Carousel Image'/>
 
               </Carousel.Item>
               <Carousel.Item>
-                <img src={image1} alt='Carousel Image' />
+                <img src={image1} className='w-100' alt='Carousel Image' />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={image1} alt='Carousel Image'/>
+                <img src={image1} className='w-100' alt='Carousel Image'/>
 
               </Carousel.Item>
             </Carousel>

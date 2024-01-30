@@ -59,13 +59,24 @@
     background-position-y: 90%;
     height: 90%;
 }
-
+@media screen and (max-width:767px){
+    .dashboard-bg {
+        margin-top: 100%;
+        width: 100%;
+    }
+}
 .dashboard-img {
     margin-left: 10%;
 }
 @media screen and (max-width:767px){
     .dashboard-img {
         margin-top: 100%;
+        width: 150%;
+    }
+}
+@media screen and (max-width:431px){
+    .dashboard-img {
+        margin-top: 0%;
         width: 150%;
     }
 }
@@ -163,9 +174,10 @@
     z-index: 2;
 
 }
+
 @media screen and (max-width:767px){
     .num-container{
-        margin-left: 9% ;
+        margin-left: 41px ;
     }
 }
 .advantages-text4 {
@@ -217,12 +229,19 @@
     height: 93%;
     
 }
+
 .Expert-img{
     width: 80%;
 }
 @media screen and (max-width:767px){
     .Expert-img{
         margin-top: 200%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:431px){
+    .Expert-img{
+        margin-top: 0%;
         width: 100%;
     }
 }
@@ -325,9 +344,16 @@ letter-spacing: -0.38px;
   .custom-button{
     background-color:#5852ac !important;
     border: none !important;
-    width: fit-content !important;
-    margin-left: 68%;
+    width: 40% !important;
+    margin-left: 58%;
   }
+  @media screen and (max-width: 431px) {
+    .custom-button {
+        width: 77% !important;
+        margin-left: 20%;
+    }
+  }
+ 
   .vertical-line2 {
     border-left: 4px solid #222529;
     height: 300px;
@@ -358,4 +384,7 @@ letter-spacing: -0.38px;
     letter-spacing: -0.16px;
     display: flex;
 flex-wrap: nowrap;
+}
+.contact-details-img{
+    padding-left: 70%;
 }

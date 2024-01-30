@@ -47,30 +47,30 @@ const ContactForm = () => {
 
 
         </Col>
-        <Col md="5" className='contact-details my-auto'>
+        <Col md="4" className='contact-details my-auto'>
           <Row>
-            <Col >
-              <img src={image3} className='my-3' ></img>
+            <Col md={3} className='mx-0'>
+              <img src={image3} className='contact-details-img my-3' ></img>
 
             </Col>
-            <Col >
-              <p className='m-4 contact-details-text'>bienvenue@data-gest.fr</p>
+            <Col md={6}>
+              <p className='my-4 contact-details-text'>bienvenue@data-gest.fr</p>
             </Col>
           </Row>
           <Row>
-            <Col >
-              <img src={image2} className='my-3'></img>
+            <Col md={3}>
+              <img src={image2} className='contact-details-img my-3'></img>
             </Col>
-            <Col >
-              <p className='m-4 contact-details-text'>01 41 08 60 90</p>
+            <Col md={6}>
+              <p className='my-4 contact-details-text'>01 41 08 60 90</p>
             </Col>
           </Row>
           <Row>
-            <Col >
-              <img src={image1} className='my-3'></img>
+            <Col md={3}>
+              <img src={image1} className='contact-details-img my-3'></img>
             </Col>
-            <Col >
-              <p className='m-4 contact-details-text'>Data-Gest <br></br>
+            <Col md={6}>  
+              <p className='my-4 contact-details-text'>Data-Gest <br></br>
                 18, rue Horace Vernet``<br></br>
                 92 130 Issy Les Moulineaux
               </p>

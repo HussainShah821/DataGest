@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import image from '../assets/images/image logo 4.png';
 function Solutions() {
   return (
-    <div className='Solutions'>
+    <div className='Solutions '>
       <Container>
         <Row>
           <Col>
@@ -19,7 +19,7 @@ function Solutions() {
             </Container>
           </Col>
           <Col>
-            <Container className='Solutions-bg m-5'>
+            <Container className='Solutions-bg my-5'>
               <img className='Solutions-img p-5' src={image} alt='Image' />
 
             </Container>

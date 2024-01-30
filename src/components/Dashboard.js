@@ -5,15 +5,15 @@ import image from '../assets/images/image logo 3.png';
 function Dashboard() {
     return (
 
-        <div className='Dashboard'>
+        <div className='Dashboard w-100'>
             <Row className='w-100'>
                 <Col >
-                    <Container className='Dashboard-bg m-5'>
+                    <Container className='Dashboard-bg mt-4 ms-4'>
                         <img className='w-75 dashboard-img p-5' src={image} alt='Image' />
 
                     </Container>
                 </Col>
-                <Col >
+                <Col className='ps-5'>
                     <p className='gamification mt-5 pt-5 w-25'> Gagner efficacité</p>
                     <h1 className='text-white mt-0 home-text2 w-75'>NOS SOLUTIONS DE GAMIFICATION</h1>
                     <h5 className='text-white home-text3 w-75'>Si certains programmes de récompenses et

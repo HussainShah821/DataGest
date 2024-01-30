@@ -7,7 +7,7 @@ function Expert() {
         <div className='Expert'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col sm={6}>
                         <Container className='Expert-bg m-2'>
                             <img className='Expert-img p-5' src={image} alt='Image' />
 
