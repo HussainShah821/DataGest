@@ -8,6 +8,7 @@ import Solutions from './components/Solutions';
 import Expert from './components/Expert';
 import Promotions from './components/Promotion';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Expert />
     <Promotions />
     <ContactForm />
+    <Footer />
     </>
   );
 }
