@@ -6,6 +6,7 @@ import image2 from '../assets/images/Vector-1.png';
 import image3 from '../assets/images/Vector-2.png';
 
 
+
 const ContactForm = () => {
   return (
     <div className="form-container w-100">
@@ -47,7 +48,7 @@ const ContactForm = () => {
 
 
         </Col>
-        <Col md="4" className='contact-details my-auto'>
+        <Col md="4" className='contact-details my-auto d-none d-lg-block'>
           <Row>
             <Col md={3} className='mx-0'>
               <img src={image3} className='contact-details-img my-3' ></img>
